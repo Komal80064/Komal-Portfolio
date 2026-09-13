@@ -4,7 +4,7 @@ A modern, responsive developer portfolio built with React, Tailwind CSS, and Mot
 
 ## 🚀 Live Demo
 
-**[View Live Portfolio](https://komal-portfolio-xi.vercel.app/)**
+**(https://komal-portfolio-xi.vercel.app/)**
 
 ## 📌 About the Project
 
