@@ -102,7 +102,7 @@ const Hero = () => {
         variants={containerVariants}
         initial="hidden"
         animate="show"
-        className="relative z-10 mx-auto flex w-full max-w-4xl flex-col items-center px-6 py-32 text-center sm:px-8"
+        className="relative z-10 mx-auto flex w-full max-w-4xl flex-col items-center px-6 pt-32 pb-16 text-center sm:px-8"
       >
         {/* Small Label */}
         <motion.div
