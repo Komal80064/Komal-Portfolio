@@ -33,8 +33,8 @@ const projects = [
     technologies: ["React", "Tailwind CSS", "Motion"],
     featured: false,
     status: "Personal Project",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://komal-portfolio-xi.vercel.app",
+    githubUrl: "https://github.com/Komal80064/Komal-Portfolio",
     preview: "portfolio",
   },
   {
