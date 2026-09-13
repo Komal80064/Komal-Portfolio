@@ -4,7 +4,7 @@ A modern, responsive developer portfolio built with React, Tailwind CSS, and Mot
 
 ## 🚀 Live Demo
 
-**[View Live Portfolio](YOUR_VERCEL_LIVE_URL)**
+**[View Live Portfolio](https://komal-portfolio-xi.vercel.app/)**
 
 ## 📌 About the Project
 
@@ -148,7 +148,7 @@ Follow these steps to run the project locally.
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Komal80064/Komal-Portfolio
 ```
 
 ### 2. Navigate to the project
