@@ -1,8 +1,5 @@
 import { AnimatePresence, motion } from "motion/react";
-import {
-  ArrowUpRight,
-  Mail,
-} from "lucide-react";
+import { ArrowUpRight, Download, Mail } from "lucide-react";
 import { FaLinkedin } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { FaSquareGithub } from "react-icons/fa6";
@@ -170,9 +167,9 @@ const Hero = () => {
           variants={itemVariants}
           className="mt-5 max-w-2xl text-base leading-7 text-zinc-400 sm:text-[17px]"
         >
-          I build modern, responsive and user-focused web applications
-          using React, JavaScript and modern web technologies. I enjoy
-          turning ideas into clean and engaging digital experiences.
+          I build modern, responsive and user-focused web applications using
+          React, JavaScript and modern web technologies. I enjoy turning ideas
+          into clean and engaging digital experiences.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -180,6 +177,7 @@ const Hero = () => {
           variants={itemVariants}
           className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:gap-4"
         >
+          {/* View Projects */}
           <motion.a
             href="#projects"
             whileHover={{ y: -3 }}
@@ -188,7 +186,6 @@ const Hero = () => {
             className="group flex w-fit items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-black hover:bg-violet-400"
           >
             View Projects
-
             <motion.span
               whileHover={{
                 x: 3,
@@ -199,14 +196,17 @@ const Hero = () => {
             </motion.span>
           </motion.a>
 
+          {/* Download Resume */}
           <motion.a
-            href="#contact"
+            href="/Komal_Web_Developer_Resume.pdf"
+            download="Komal_Web_Developer_Resume.pdf"
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.97 }}
             transition={{ duration: 0.2 }}
-            className="flex w-fit items-center justify-center rounded-full border border-zinc-700 px-6 py-3 text-sm font-semibold text-zinc-200 hover:border-violet-400 hover:text-violet-300"
+            className="flex w-fit items-center justify-center gap-2 rounded-full border border-zinc-700 px-6 py-3 text-sm font-semibold text-zinc-200 transition-colors hover:border-violet-400 hover:bg-violet-500/10 hover:text-violet-300"
           >
-            Let's Talk
+            <Download size={17} />
+            Download Resume
           </motion.a>
         </motion.div>
 
@@ -276,27 +276,19 @@ const Hero = () => {
           variants={itemVariants}
           className="mt-8 flex flex-wrap items-center justify-center gap-x-4 gap-y-2"
         >
-          <span className="text-xs text-zinc-600">
-            React
-          </span>
+          <span className="text-xs text-zinc-600">React</span>
 
           <span className="text-zinc-800">•</span>
 
-          <span className="text-xs text-zinc-600">
-            JavaScript
-          </span>
+          <span className="text-xs text-zinc-600">JavaScript</span>
 
           <span className="text-zinc-800">•</span>
 
-          <span className="text-xs text-zinc-600">
-            Node.js
-          </span>
+          <span className="text-xs text-zinc-600">Node.js</span>
 
           <span className="text-zinc-800">•</span>
 
-          <span className="text-xs text-zinc-600">
-            MongoDB
-          </span>
+          <span className="text-xs text-zinc-600">MongoDB</span>
         </motion.div>
       </motion.div>
     </section>
@@ -304,4 +296,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
